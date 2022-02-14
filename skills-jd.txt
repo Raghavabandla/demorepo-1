@@ -1,0 +1,2 @@
+Strong Linux administration skills in various flavors (CentOS, Ubuntu and Red hat) .
+Troubleshooting skills in Booting Problems Good skills in incidents tracking from Logs.Good Skills in Shell ScriptingNetworking SkillsKnowledge on Web servers (Apache, Nginx ...etc.)Files servers like FTP, NFS and SAMBA Additional Advantage: AWS &Azure Cloud knowledge, Dockers, Jenkins
