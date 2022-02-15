@@ -1,0 +1,104 @@
+
+What is JSON?
+--------------
+JSON stands for JavaScript Object Notation
+JSON is a lightweight data-interchange format
+JSON is "self-describing" and easy to understand
+JSON is language independent *
+
+Why use JSON?
+---------------
+Since the JSON format is text only, it can easily be sent to and from a server, and used as a data format by any programming language.
+
+JavaScript has a built in function to convert a string, written in JSON format, into native JavaScript objects:
+
+JSON.parse()
+
+So, if you receive data from a server, in JSON format, you can use it like any other JavaScript object.
+
+JSON Syntax:
+-------------
+
+JSON Syntax Rules
+JSON syntax is derived from JavaScript object notation syntax:
+
+Data is in name/value pairs
+Data is separated by commas
+Curly braces hold objects
+Square brackets hold arrays
+
+JSON Data - A Name and a Value
+JSON data is written as name/value pairs.
+
+A name/value pair consists of a field name (in double quotes), followed by a colon, followed by a value:
+
+"name":"John"
+
+JSON - Evaluates to JavaScript Objects
+The JSON format is almost identical to JavaScript objects.
+
+In JSON, keys must be strings, written with double quotes:
+
+{ "name":"John" }
+
+JSON Values:
+------------
+In JSON, values must be one of the following data types:
+
+a string
+a number
+an object (JSON object)
+an array
+a boolean
+null
+In JavaScript values can be all of the above, plus any other valid JavaScript expression, including:
+
+a function
+a date
+undefined
+In JSON, string values must be written with double quotes:
+
+Eg : { "name":"John" }
+     { name:'John' }
+
+JSON Uses JavaScript Syntax
+Because JSON syntax is derived from JavaScript object notation, very little extra software is needed to work with JSON within JavaScript.
+
+With JavaScript you can create an object and assign data to it, like this:
+
+var person = { name: "John", age: 31, city: "New York" };
+
+JavaScript Arrays as JSON:
+--------------------------
+The same way JavaScript objects can be used as JSON, JavaScript arrays can also be used as JSON.
+
+You will learn more about arrays as JSON later in this tutorial.
+
+
+Arrays as JSON Objects
+
+[ "Ford", "BMW", "Fiat" ]
+
+Arrays in JSON are almost the same as arrays in JavaScript.
+
+In JSON, array values must be of type string, number, object, array, boolean or null.
+
+In JavaScript, array values can be all of the above, plus any other valid JavaScript expression, including functions, dates, and undefined.
+
+{
+"name":"John",
+"age":30,
+"cars":[ "Ford", "BMW", "Fiat" ]
+}
+
+Nested Arrays in JSON Objects:
+{
+  "name":"John",
+  "age":30,
+  "cars": [
+    { "name":"Ford", "models":[ "Fiesta", "Focus", "Mustang" ] },
+    { "name":"BMW", "models":[ "320", "X3", "X5" ] },
+    { "name":"Fiat", "models":[ "500", "Panda" ] }
+  ]
+ }
+
